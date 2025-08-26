@@ -84,3 +84,16 @@ To make your app work properly with React Router (if you end up using it) on Her
 ## Contact
 
 Please contact me at `nima.boscarino@gmail.com` if you have any questions or requests, or post an issue to this repo.
+
+
+## Running in Docker
+
+### Create the images
+
+docker compose build db
+docker compose build back
+docker compose build front
+
+### Run
+
+sh start.sh

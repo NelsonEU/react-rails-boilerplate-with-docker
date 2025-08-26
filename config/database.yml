@@ -4,14 +4,16 @@ connection: &connection
   adapter: postgresql
   encoding: unicode
   pool: 5
-  username: <PG_USERNAME>
-  password: <PG_PASSWORD>
+  host: db
+  port: 5432
+  username: react_rails_boilerplate
+  password: react_rails_boilerplate
   timeout: 5000
 
 development:
   <<: *connection
-  database: rails_development
+  database: react_rails_boilerplate_dev
 
 test:
   <<: *connection
-  database: rails_test
+  database: react_rails_boilerplate_test
