@@ -2,9 +2,9 @@
 
 ### Create the images
 
-docker compose build db
-docker compose build back
-docker compose build front
+- docker compose build db
+- docker compose build back
+- docker compose build front
 
 ### Run
 
